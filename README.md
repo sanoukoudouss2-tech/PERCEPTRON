@@ -40,8 +40,8 @@ Le pipeline complet d'entraînement (initialisation, forward pass, calcul du co�
 
 | Métrique  | Valeur |
 |-----------|--------|
-| Accuracy  | 93.9 % |
-| F1-score  | 92.1 % |
+| Accuracy  | 92.98 % |
+| F1-score  | 90.90 % |
 
 Une matrice de confusion est également générée pour visualiser les performances du modèle sur le jeu de test.
 
