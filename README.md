@@ -2,6 +2,8 @@
 
 Implémentation d'un perceptron (régression logistique) **from scratch**, en Python avec uniquement NumPy (sans scikit-learn pour la partie modélisation), appliqué à la prédiction de la malignité d'une tumeur à partir du dataset *Breast Cancer Wisconsin*.
 
+![Schéma du perceptron](assets/perceptron_schema.jpeg)
+
 ## 🎯 Objectif
 
 Comprendre et implémenter manuellement les fondations mathématiques d'un modèle de classification binaire — la brique de base des réseaux de neurones — avant d'aborder des architectures plus complexes (MLP, etc.).
@@ -23,6 +25,10 @@ Le pipeline suit les étapes suivantes :
 
 5. **Seuil de décision** : classification finale en comparant la probabilité prédite à un seuil (par défaut 0.5)
 
+Le pipeline complet d'entraînement (initialisation, forward pass, calcul du coût, calcul des gradients, mise à jour des paramètres) est résumé ci-dessous :
+
+![Pipeline d'entraînement](assets/pipeline.jpeg)
+
 ## 📊 Données
 
 - **Source** : [Breast Cancer Wisconsin (Diagnostic) Dataset](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
@@ -39,19 +45,23 @@ Le pipeline suit les étapes suivantes :
 
 Une matrice de confusion est également générée pour visualiser les performances du modèle sur le jeu de test.
 
+![Matrice de confusion](assets/confusion_matrix.png)
+
 ## 🛠️ Stack technique
 
 - `numpy` — calculs matriciels et implémentation du modèle
 - `pandas` — chargement et manipulation des données
-- `matplotlib` / `seaborn` — visualisation
+- `matplotlib`  — visualisation
 - `scikit-learn` — uniquement pour le split train/test et le calcul des métriques d'évaluation (accuracy, F1, matrice de confusion)
 
 
 ## 📁 Structure du projet
 
 ```
+.
 ├── data.csv              # Dataset
 ├── perceptron.ipynb      # Notebook principal
+├── assets/               # Images utilisées dans le README
 └── README.md
 ```
 
