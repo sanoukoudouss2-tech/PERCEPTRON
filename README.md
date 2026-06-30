@@ -31,7 +31,7 @@ Le pipeline complet d'entraînement (initialisation, forward pass, calcul du co�
 
 ## 📊 Données
 
-- **Source** : [Breast Cancer Wisconsin (Diagnostic) Dataset](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
+- **Source** : [Breast Cancer Wisconsin (Diagnostic) Dataset](https://www.kaggle.com/datasets/mragpavank/breast-cancer)
 - **Fichier** : `data.csv`
 - **Cible** : `diagnosis` (M = malin, B = bénin)
 - **Variables** : 30 features numériques décrivant les caractéristiques des noyaux cellulaires (rayon, texture, périmètre, aire, concavité, etc.)
