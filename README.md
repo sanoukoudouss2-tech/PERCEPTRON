@@ -2,7 +2,7 @@
 
 Implémentation d'un perceptron (régression logistique) **from scratch**, en Python avec uniquement NumPy (sans scikit-learn pour la partie modélisation), appliqué à la prédiction de la malignité d'une tumeur à partir du dataset *Breast Cancer Wisconsin*.
 
-![Schéma du perceptron](assets/perceptron_schema.jpeg)
+![Schéma du perceptron](assests/perceptron_schema.jpeg)
 
 ## 🎯 Objectif
 
@@ -27,7 +27,7 @@ Le pipeline suit les étapes suivantes :
 
 Le pipeline complet d'entraînement (initialisation, forward pass, calcul du coût, calcul des gradients, mise à jour des paramètres) est résumé ci-dessous :
 
-![Pipeline d'entraînement](assets/pipeline.jpeg)
+![Pipeline d'entraînement](assests/pipeline.jpeg)
 
 ## 📊 Données
 
@@ -45,7 +45,7 @@ Le pipeline complet d'entraînement (initialisation, forward pass, calcul du co�
 
 Une matrice de confusion est également générée pour visualiser les performances du modèle sur le jeu de test.
 
-![Matrice de confusion](assets/confusion_matrix.png)
+![Matrice de confusion](assests/confusion_matrix.png)
 
 ## 🛠️ Stack technique
 
