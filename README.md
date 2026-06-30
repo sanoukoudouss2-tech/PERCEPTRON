@@ -1,4 +1,4 @@
-# Neurone artificiel from Scratch — Détection du cancer du sein
+# Neurone artificiel from Scratch — Détection de tumeur maligne ou benigne
 
 Implémentation d'un neurone artificiel (régression logistique) **from scratch**, en Python avec uniquement NumPy (sans scikit-learn pour la partie modélisation), appliqué à la prédiction de la malignité d'une tumeur à partir du dataset *Breast Cancer Wisconsin*.
 
